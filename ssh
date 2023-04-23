@@ -1,0 +1,34 @@
+Host i9258676.beget.tech
+  HostName i9258676.beget.tech
+  User i9258676_adm
+
+Host mskvps
+HostName 194.87.238.36
+User root
+
+Host amsvpn
+HostName 194.135.20.138
+User root
+
+Host plvpn
+HostName 194.31.174.192
+user root
+
+Host srv_tw
+HostName 94.228.112.166
+User root
+
+Host nic
+HostName ssh.h213322621.nichost.ru
+User h213322621
+HostKeyAlgorithms=+ssh-rsa
+IdentitiesOnly yes
+PubkeyAcceptedAlgorithms +ssh-rsa
+
+Host timvds
+Hostname v1597984.hosted-by-vdsina.ru
+User root
+
+Host iph-fr
+Hostname 51.254.230.193
+User root
