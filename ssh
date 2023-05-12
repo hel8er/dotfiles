@@ -32,3 +32,8 @@ User root
 Host iph-fr
 Hostname 51.254.230.193
 User root
+
+Host mc-indira
+Hostname 176.9.72.217
+Port 44044
+User maincraft
