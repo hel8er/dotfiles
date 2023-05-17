@@ -1,6 +1,6 @@
 set nocompatible              " be iMproved, required
 filetype off                  " required
-
+set number
 " set the runtime path to include Vundle and initialize
 set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
@@ -29,7 +29,7 @@ Plugin 'rstacruz/sparkup', {'rtp': 'vim/'}
 
 Plugin 'flazz/vim-colorschemes'
 Plugin 'tpope/vim-surround'
-
+Plugin 'morhetz/gruvbox'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
@@ -123,4 +123,5 @@ if has("gui_macvim")
 endif
 
 set guifont=Monaco:h18
-colorscheme OceanicNext
+set background=dark
+colorscheme gruvbox
