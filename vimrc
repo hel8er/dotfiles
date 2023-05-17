@@ -30,6 +30,7 @@ Plugin 'rstacruz/sparkup', {'rtp': 'vim/'}
 Plugin 'flazz/vim-colorschemes'
 Plugin 'tpope/vim-surround'
 Plugin 'morhetz/gruvbox'
+Plugin 'preservim/nerdtree'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
@@ -121,7 +122,10 @@ if has("gui_macvim")
   " Command-0 goes to the last tab
   noremap <D-0> :tablast<CR>
 endif
-
+nnoremap <leader>n :NERDTreeFocus<CR>
+nnoremap <C-n> :NERDTree<CR>
+nnoremap <C-t> :NERDTreeToggle<CR>
+nnoremap <C-f> :NERDTreeFind<CR>
 set guifont=Monaco:h18
 set background=dark
 colorscheme gruvbox
