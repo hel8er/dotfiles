@@ -1,13 +1,13 @@
 Host i9258676.beget.tech
-  HostName i9258676.beget.tech
-  User i9258676_adm
+HostName i9258676.beget.tech
+User i9258676_adm
 
 Host mskvps
 HostName 194.87.238.36
 User root
 
 Host amsvpn
-HostName 194.135.20.138
+HostName 95.140.158.235
 User root
 
 Host plvpn
