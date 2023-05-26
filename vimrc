@@ -3,6 +3,10 @@
 set nocompatible              " be iMproved, required
 filetype off                  " required
 set number
+set relativenumber
+set guifont=Monaco:h18
+set background=dark
+colorscheme gruvbox
 " set the runtime path to include Vundle and initialize
 set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
@@ -128,6 +132,3 @@ nnoremap <leader>n :NERDTreeFocus<CR>
 nnoremap <C-n> :NERDTree<CR>
 nnoremap <C-t> :NERDTreeToggle<CR>
 nnoremap <C-f> :NERDTreeFind<CR>
-set guifont=Monaco:h18
-set background=dark
-colorscheme gruvbox
